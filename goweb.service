@@ -1,10 +1,11 @@
 [Unit]
-Description=goweb
+Description=ydgo
 
 [Service]
 Type=simple
 Restart=always
 RestartSec=5s
+WorkingDirectory=/home/GoProjects/ydgo
 ExecStart=/home/GoProjects/ydgo/main
 
 [Install]
