@@ -1,7 +1,3 @@
-module ydgo
-
-go 1.17
-
 [Unit]
 Description=goweb
 
@@ -9,7 +5,7 @@ Description=goweb
 Type=simple
 Restart=always
 RestartSec=5s
-ExecStart=/home/user/go/go-web/main
+ExecStart=/home/GoProjects/ydgo/main
 
 [Install]
 WantedBy=multi-user.target
