@@ -46,6 +46,7 @@ func gptQuestionAction(w http.ResponseWriter, r *http.Request) {
 
 func (*myHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	if h, ok := mux[r.URL.String()]; ok {
+		r.Host = ""
 		h(w, r)
 		return
 	}
