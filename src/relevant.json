@@ -1,0 +1,48 @@
+{
+  "list": [
+    {
+      "question": "kimsin, nesin",
+      "answer": "Merhaba ben Yusuf Doğan. Kendi halinde takılan bir yazılımcıyım."
+    },
+    {
+      "question": "meslek, ne iş yapıyorsun.",
+      "answer": "Software Engineer"
+    },
+    {
+      "question": "hey, selam, naber, alo, hi, hello",
+      "answer": "hoop."
+    },
+    {
+      "question": "merhaba, meraba, maraba, merhab",
+      "answer": "merabana meraba kardeş."
+    },
+    {
+      "question": "nerelisin, neresi, nereli, nereden, nerelis",
+      "answer": "Bunun konumuzla ne ilgisi var."
+    },
+    {
+      "question": "nerede okudun, üniversite, eğitim",
+      "answer": "Iskenderun Teknik Üniversitesi"
+    },
+    {
+      "question": "nerede çalışıyorsun",
+      "answer": "Ideasoft"
+    },
+    {
+      "question": "Dil",
+      "answer": "PHP"
+    },
+    {
+      "question": "linkedin",
+      "answer": "https://www.linkedin.com/in/yusufdgn"
+    },
+    {
+      "question": "instagram",
+      "answer": "https://www.instagram.com/yusufdgn"
+    },
+    {
+      "question": "twitter",
+      "answer": "https://twitter.com/01011001D"
+    }
+  ]
+}
