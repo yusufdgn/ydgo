@@ -28,6 +28,7 @@ func main() {
 }
 
 func gptQuestionAction(w http.ResponseWriter, r *http.Request) {
+	r.Host = ""
 	var questionRequest models.QuestionRequest
 	err := json.NewDecoder(r.Body).Decode(&questionRequest)
 	if err != nil {
@@ -45,8 +46,8 @@ func gptQuestionAction(w http.ResponseWriter, r *http.Request) {
 }
 
 func (*myHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	r.Host = ""
 	if h, ok := mux[r.URL.String()]; ok {
-		r.Host = ""
 		h(w, r)
 		return
 	}
